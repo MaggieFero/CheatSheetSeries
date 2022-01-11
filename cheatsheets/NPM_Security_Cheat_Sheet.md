@@ -95,7 +95,7 @@ Hosting your own registry was never so easy! Let’s check the most important fe
 - As an authentication provider by default, it uses an htpasswd security, but also supports Gitlab, Bitbucket, LDAP. You can also use your own.
 - It’s easy to scale using a different storage provider.
 - If your project is based in Docker, using the official image is the best choice.
-- It enables really fast bootstrap for testing environments, and is handy for testing big mono-repos projects.
+- It enables really fast bootstrap for testing environments, and is handy for testing big mono-repo projects.
 
 ## 7) Responsibly disclose security vulnerabilities
 
