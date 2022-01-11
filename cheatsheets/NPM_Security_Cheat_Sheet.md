@@ -109,7 +109,7 @@ In October 2017, npm officially announced support for two-factor authentication 
 
 Even though 2FA has been supported on the npm registry for a while now, it seems to be slowly adopted with one example being the eslint-scope incident in mid-2018 when a stolen developer account on the ESLint team lead to a [malicious version of eslint-scope](https://snyk.io/vuln/npm:eslint-scope) being published by bad actors.
 
-Enabling 2FA is an easy and significant win for an npm security best practices. The registry supports two modes for enabling 2FA in a user’s account:
+Enabling 2FA is an easy and significant win for npm security best practices. The registry supports two modes for enabling 2FA in a user’s account:
 
 - Authorization-only—when a user logs in to npm via the website or the CLI, or performs other sets of actions such as changing profile information.
 - Authorization and write-mode—profile and log-in actions, as well as write actions such as managing tokens and packages, and minor support for team and package visibility information.
