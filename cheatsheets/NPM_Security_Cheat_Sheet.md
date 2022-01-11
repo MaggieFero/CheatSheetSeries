@@ -146,7 +146,7 @@ Naming a module is the first thing you might do when creating a package, but bef
 - No trailing spaces
 - Only lowercase
 - Some special characters are not allowed: “~\’!()*”)’
-- Can’t use node_modules or favicon.ico due are banned
+- Can’t use node_modules or favicon.ico, which are banned
 - Even if you follow these rules, be aware that npm uses a spam detection mechanism when publishing new packages, based on score and whether a package name violates the terms of the service. If conditions are violated, the registry might deny the request.
 
 Typosquatting is an attack that relies on mistakes made by users, such as typos. With typosquatting, bad actors could publish malicious modules to the npm registry with names that look much like existing popular modules.
